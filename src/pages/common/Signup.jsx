@@ -58,7 +58,7 @@ const Signup = () => {
                           htmlFor='signup-name'
                           className='text-sm md:text-lg font-body leading-[1.6] text-white'
                          >
-                          Enter your name <b className='text-white'></b>
+                          Enter your nam <b className='text-white'></b>
                         </label>
                         <input
                           type='text'
