@@ -1,0 +1,27 @@
+[
+  {
+    "review": "Using Orbyte AI's solutions has been transformative. Their tools bring unparalleled automation and precision to contract management. Orbyte AI's commitment to excellence and innovation makes them an invaluable partner in driving efficiency and productivity.",
+    "linkedin": "assets/img/th-1/linkedin-icon-black.svg",
+    "onclick": "openLinkedInProfile('https://www.linkedin.com/in/kalyan-bhattacharya/')",
+    "name": "Kalyan Bhattacharya",
+    "info": "Vice President (Export & Business Development) at Paharpur Cooling Towers"
+    
+  },
+  {
+    "review": "Orbyte AI's expertise is unmatched. Their algorithms and intuitive design have greatly enhanced our decision-making. With Orbyte AI, our efficiency and accuracy have improved significantly. Their team's dedication to advancing AI technology is a tremendous benefit to us.",
+    "linkedin": "assets/img/th-1/linkedin-icon-black.svg",
+    "onclick": "openLinkedInProfile('https://www.linkedin.com/in/kalyan-bhattacharya/')",
+    "name": "Dr. Robert",
+    "info": "Business School Faculty, Board Member & Investor",
+    "rating": "assets/img/th-1/rating.svg"
+  },
+  {
+    "review": "Using Orbyte AI has been a game-changer. Their AI tools revolutionized our document management and workflows. The seamless integration into our systems is impressive, and the results speak for themselves. Orbyte AI leads in AI innovation, delivering exceptional value to our operations.",
+    "linkedin": "assets/img/th-1/linkedin-icon-black.svg",
+    "onclick": "openLinkedInProfile('https://www.linkedin.com/in/kalyan-bhattacharya/')",
+    "name": "Dr. Manjunath Padigar",
+    "info": "Lecturer at leading Australian Business School",
+    "rating": "assets/img/th-1/rating.svg"
+  }
+ 
+]
