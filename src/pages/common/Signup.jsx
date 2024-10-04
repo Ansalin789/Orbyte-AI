@@ -78,7 +78,7 @@ const Signup = () => {
                           htmlFor='signup-email'
                           className='text-sm md:text-lg font-body leading-[1.6] text-white'
                         >
-                          Email addresss <b className='text-white'></b>
+                          Email address <b className='text-white'></b>
                         </label>
                         <input
                           type='email'
