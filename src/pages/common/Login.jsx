@@ -30,17 +30,17 @@ const Login = () => {
             {/* Section Container */}
             <div className='global-container'>
               <div className='mx-auto max-w-[510px] text-center'>
-                <h2 className='mb-[50px] text-white font-body text-[40px] heroa'>welcome back</h2>
-                <div className='block rounded-lg bg-white px-[30px] py-[50px] text-left shadow-[0_4px_60px_0_rgba(0,0,0,0.1)] sm:px-10 bg-gradient-to-t from-[#4695a7] via-[#000000] to-[#4d2b77]'>
+                <h3 className='mb-[50px] text-white font-body text-[30px] heroa'>Welcome back</h3>
+                <div className='rounded-[20px] shadows block px-4 py-6 md:px-8 md:py-10 mt-7'>
                   {/* Login Form */}
                   <form
                     onSubmit={handleSubmit}
-                    className='flex flex-col gap-y-5'
+                    className='flex flex-col gap-y-4'
                   >
                     {/* Form Group */}
-                    <div className='grid grid-cols-1 gap-6'>
+                    <div className='grid grid-cols-1 gap-y-4 md:grid-cols-1 md:gap-x-6'>
                       {/* Form Single Input */}
-                      <div className='flex flex-col gap-y-[10px]'>
+                      <div className='grid grid-cols-1 gap-y-4 md:grid-cols-2 md:gap-x-6'>
                         <label
                           htmlFor='login-email'
                           className='text-lg font-body leading-[1.6] text-white'
@@ -54,16 +54,16 @@ const Login = () => {
                           onChange={handleInput}
                           id='login-email'
                           placeholder='example@gmail.com'
-                          className='rounded-[50px] border border-gray-300 bg-white px-6 py-[10px] font-body text-black outline-none transition-all placeholder:text-slate-500 focus:border-[#622ca5]'
+                          className='rounded-[10px] border text-sm md:text-base border-gray-700 bg-[#2B2252] p-2 md:px-4 md:py-[6px] font-body text-white outline-none transition-all placeholder:text-slate-500 focus:border-white'
                           required=''
                         />
                       </div>
                       {/* Form Single Input */}
                       {/* Form Single Input */}
-                      <div className='flex flex-col gap-y-[10px]'>
+                      <div className='grid grid-cols-1 gap-y-4 md:grid-cols-2 md:gap-x-6'>
                         <label
                           htmlFor='login-password'
-                          className='text-lg font-body leading-[1.6] text-white'
+                          className='text-sm md:text-lg font-body leading-[1.6] text-white'
                         >
                           Enter Password
                         </label>
@@ -74,40 +74,21 @@ const Login = () => {
                           onChange={handleInput}
                           id='login-password'
                           placeholder='Enter Your Password'
-                          className='rounded-[50px] border border-gray-300 bg-white px-6 py-[10px] font-body text-black outline-none transition-all placeholder:text-slate-500 focus:border-[#622ca5]'
+                          className='rounded-[10px] border text-sm md:text-base border-gray-700 bg-[#2B2252] p-2 md:px-4 md:py-[6px] font-body text-white outline-none transition-all placeholder:text-slate-500 focus:border-white'
                           required=''
                         />
                       </div>
                       {/* Form Single Input */}
-                      <div className='flex flex-wrap justify-between gap-x-10 gap-y-4'>
-                        {/* Form Single Input */}
-                        <div className='flex gap-x-8 gap-y-[10px]'>
-                          <input
-                            type='checkbox'
-                            className="relative appearance-none text-base after:absolute after:left-0 after:top-[6px] after:h-4 after:w-4 after:rounded-[3px] after:border after:border-[#7F8995] after:bg-white after:text-white after:transition-all after:delay-300x checked:after:bg-[#000] checked:after:bg-[url('/assets/img/th-1/icon-white-checkmark-filled.svg')]"
-                            name='login-check'
-                            id='login-check'
-                            required=''
-                          />
-                          <label
-                            htmlFor='login-check'
-                            className='text-base font-body leading-[1.6] text-white'
-                          >
-                            Remember me
-                          </label>
-                        </div>
-                        {/* Form Single Input */}
-                      </div>
                     </div>
                     <button
                       type='submit'
-                      className='button mt-7 font-body block rounded-[50px] bg-[#212462] py-3 text-white after:bg-[#16184a] hover:text-white'
+                      className='font-body p-2 pr-3 pl-3 mt-4 rounded-[10px] md:rounded-[10px] bg-[#2B2252] text-white md:text-base text-sm hover:bg-[#3c2a7a] transition-colors'
                     >
                       Sign in
                     </button>
                     {/* Form Group */}
                   </form>
-                  <div className='mt-10 text-center'>
+                  <div className='mt-10 text-center font-body'>
                     Don't have an account? &nbsp;
                     <Link
                       to='/signup'

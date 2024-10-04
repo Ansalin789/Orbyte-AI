@@ -43,22 +43,22 @@ const Signup = () => {
             {/* Section Container */}
             <div className='global-container'>
               <div className='mx-auto max-w-[510px] text-center'>
-                <h2 className='mb-[50px] text-white font-body text-[40px] heroa'>Create Account</h2>
-                <div className='block rounded-lg bg-white px-[30px] py-[50px] text-left shadow-[0_4px_60px_0_rgba(0,0,0,0.1)] sm:px-10 bg-gradient-to-t from-[#4695a7] via-[#000000] to-[#4d2b77]'>
+                <h3 className='mb-[50px] text-white font-body text-[30px] heroa'>Create Account</h3>
+                <div className='rounded-[20px] shadows block px-4 py-6 md:px-8 md:py-10 mt-7'>
                   {/* Sign Up Form */}
                   <form
                     onSubmit={handleSubmit}
-                    className='flex flex-col gap-y-5 '
+                    className='flex flex-col gap-y-4'
                   >
                     {/* Form Group */}
-                    <div className='grid grid-cols-1 gap-6'>
+                    <div className='grid grid-cols-1 gap-y-4 md:grid-cols-1 md:gap-x-6'>
                       {/* Form Single Input */}
-                      <div className='flex flex-col gap-y-[10px]'>
+                      <div className='grid grid-cols-1 gap-y-4 md:grid-cols-2 md:gap-x-6'>
                         <label
                           htmlFor='signup-name'
-                          className='text-lg font-body leading-[1.6] text-white'
+                          className='text-sm md:text-lg font-body leading-[1.6] text-white'
                          >
-                          Enter your name
+                          Enter your name <b className='text-white'></b>
                         </label>
                         <input
                           type='text'
@@ -67,18 +67,18 @@ const Signup = () => {
                           onChange={handleInput}
                           id='signup-name'
                           placeholder='Enter your name'
-                          className='rounded-[50px] border border-gray-300 bg-white px-6 py-[10px] font-body text-black outline-none transition-all placeholder:text-slate-500'
+                          className='rounded-[10px] border text-sm md:text-base border-gray-700 bg-[#2B2252] p-2 md:px-4 md:py-[6px] font-body text-white outline-none transition-all placeholder:text-slate-500 focus:border-white'
                           required=''
                         />
                       </div>
                       {/* Form Single Input */}
                       {/* Form Single Input */}
-                      <div className='flex flex-col gap-y-[10px]'>
+                      <div className='grid grid-cols-1 gap-y-4 md:grid-cols-2 md:gap-x-6'>
                         <label
                           htmlFor='signup-email'
-                          className='text-lg font-body leading-[1.6] text-white'
+                          className='text-sm md:text-lg font-body leading-[1.6] text-white'
                         >
-                          Email address
+                          Email address <b className='text-white'></b>
                         </label>
                         <input
                           type='email'
@@ -87,16 +87,16 @@ const Signup = () => {
                           onChange={handleInput}
                           id='signup-email'
                           placeholder='example@gmail.com'
-                          className='rounded-[50px] border border-gray-300 bg-white px-6 py-[10px] font-body text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed'
+                          className='rounded-[10px] border text-sm md:text-base border-gray-700 bg-[#2B2252] p-2 md:px-4 md:py-[6px] font-body text-white outline-none transition-all placeholder:text-slate-500 focus:border-white'
                           required=''
                         />
                       </div>
                       {/* Form Single Input */}
                       {/* Form Single Input */}
-                      <div className='flex flex-col gap-y-[10px]'>
+                      <div className='grid grid-cols-1 gap-y-4 md:grid-cols-2 md:gap-x-6'>
                         <label
                           htmlFor='signup-password'
-                          className='text-lg font-body leading-[1.6] text-white'
+                          className='text-sm md:text-lg font-body leading-[1.6] text-white'
                         >
                           Enter Password
                         </label>
@@ -107,13 +107,13 @@ const Signup = () => {
                           onChange={handleInput}
                           id='signup-password'
                           placeholder='............'
-                          className='rounded-[50px] border border-gray-300 bg-white px-6 py-[10px] font-body text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed'
+                          className='rounded-[10px] border text-sm md:text-base border-gray-700 bg-[#2B2252] p-2 md:px-4 md:py-[6px] font-body text-white outline-none transition-all placeholder:text-slate-500 focus:border-white'
                           required=''
                         />
                       </div>
                       {/* Form Single Input */}
                       {/* Form Single Input */}
-                      <div className='flex gap-x-8 gap-y-[10px]'>
+                      {/* <div className='flex gap-x-8 gap-y-[10px]'>
                         <input
                           type='checkbox'
                           className="relative appearance-none after:absolute after:left-0 after:top-[6px] after:h-4 after:w-4 after:rounded-[3px] after:border after:border-[#7F8995] after:bg-white after:text-white after:transition-all after:delay-300 checked:after:border-colorViolet checked:after:bg-colorViolet checked:after:bg-[url('/assets/img/th-1/icon-white-checkmark-filled.svg')]"
@@ -127,12 +127,12 @@ const Signup = () => {
                           htmlFor='signup-check'
                           className='text-base font-body leading-[1.6] text-white'
                         >
-                          I have read and accept the 
+                          I have read and accept the  
                           <Link
                             href='#'
-                            className='font-bold hover:text-colorViolet'
+                            className='font-body hover:text-colorViolet'
                           >
-                            Terms &amp; Conditions
+                             Terms &amp; Conditions
                           </Link>
                           &nbsp; and &nbsp;
                           <Link
@@ -142,12 +142,12 @@ const Signup = () => {
                             Privacy Policy
                           </Link>
                         </label>
-                      </div>
+                      </div> */}
                       {/* Form Single Input */}
                     </div>
                     <button
                       type='submit'
-                      className='button mt-7 block font-body rounded-[50px] border-1 bg-[#2e566c] py-2 text-white after:bg-[#255482] hover:text-white'
+                      className='font-body p-2 pr-3 pl-3 mt-4 rounded-[10px] md:rounded-[10px] bg-[#2B2252] text-white md:text-base text-sm hover:bg-[#3c2a7a] transition-colors'
                     >
                       Create account
                     </button>
