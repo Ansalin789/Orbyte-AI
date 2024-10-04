@@ -44,7 +44,7 @@ const Faq = () => {
               </div>
               <div className='accordion-content'>
                 <p className='font-body text-[14px] sm:text-[15px]'>
-                Orbyte AI is an advanced contract management platform engineered to enhance productivity, increase profitability, and significantly reduce risk through the application of cutting-edge artificial intelligenc
+                Orbyte AI is an advanced contract management platform engineered to enhance productivity, increase profitability, and significantly reduce risk through the application of cutting-edge artificial intelligence.
                 </p>
               </div>
             </li>
