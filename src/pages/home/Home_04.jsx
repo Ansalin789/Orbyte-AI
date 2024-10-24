@@ -35,7 +35,7 @@ const Home_04 = () => {
           {/* <Chat /> */}
           <Contact />
         </main>
-        <Footer_01 />
+        {/* <Footer_01 /> */}
         
       </div>
     </>
