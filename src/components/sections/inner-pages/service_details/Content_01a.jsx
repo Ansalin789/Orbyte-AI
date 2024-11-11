@@ -18,9 +18,9 @@ const Content_01a = () => {
         <div className="pb-10 pt-20 md:pb-[10px] md:pt-40 lg:pt-44 xl:pt-[110px] rounded-3xl p-5 md:p-10">
           {/* Section Container */}
           <div className='bg-gradient-to-t from-[#84c3eb] via-[#303ac3] to-[#000000] p-10 md:p-20 rounded-b-[30px] md:rounded-b-[70px]'>
-            <h2 className='jos font-body mb-6 text-[24px] md:text-[50px] leading-none text-white -top-10'>
+            <h1 className='jos font-body mb-6 text-[24px] md:text-[50px] leading-none text-white -top-10'>
             Streamline HR and Operational Efficiency with OfizzPro
-            </h2>
+            </h1>
             <div className='mx-auto max-w-[90%] md:max-w-[1090px]'>
               <p className='leading-[1.5] md:leading-[1.33] font-body text-[12px] md:text-[15px]'>
               Enhance your organizational efficiency with AI-driven documentation, dynamic knowledge management, and workflow automation. Leverage cutting-edge AI technology to streamline the creation and maintenance of SOPs and HR manuals, ensuring up-to-date and easily accessible information through dynamic knowledge extraction.

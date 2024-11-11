@@ -8,8 +8,22 @@ const Faq = () => {
 
     <Helmet>
       <meta charSet="utf-8" />
-      <title>Orbyte AI</title>
-      <link rel="canonical" href="http://mysite.com/example" />
+      <title>AI-powered Contract Lifecycle Management System - Orbyte AI
+        </title>
+        <meta
+          name="description"
+          content="Find answers to common questions about OrbyteAI's AI-driven solutions. Discover how our products like PactPro and OfizzPro can enhance your business operations, streamline management, and improve efficiency"
+        />
+        <meta
+          name="keywords"
+          content="AI innovation for business, OrbyteAI solutions, PactPro contract management, OfizzPro office administration, AI-driven business products, Contract lifecycle management, Efficient office administration, Advanced AI for business operations, Business automation solutions, AI-powered business tools, State-of-the-art AI products, Contract management AI software, Office management with AI, Business productivity with AI, OrbyteAI PactPro and OfizzPro
+"
+        />
+        <link rel="canonical" href="https://orbyte.ai/" />
+        <meta
+          name="robots"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+        />
     </Helmet>
       {/* Section Spacer */}
       <div className='py-10 sm:py-16 md:py-20 xl:pb-[150px] xl:pt-[130px]'>

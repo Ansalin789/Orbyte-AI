@@ -8,8 +8,21 @@ const Blog = () => {
       <main className='p-14'>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Our Blogs</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <title>Blog - orbyte AI
+        </title>
+        <meta
+          name="description"
+          content="Stay updated with the latest in AI innovation, business automation, and productivity solutions. Explore insights, trends, and tips from OrbyteAI to revolutionize your business operations with cutting-edge AI products"
+        />
+        <meta
+          name="keywords"
+          content="Orbyte AI Blog"
+        />
+        <link rel="canonical" href="https://orbyte.ai/blog" />
+        <meta
+          name="robots"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+        />
       </Helmet>
         <div className='mx-2 mb-10 sm:mx-4 p-20 rounded-b-[50px] sm:rounded-b-[50px] bg-gradient-to-t from-[#cfc1f1] via-[#301979] to-[#000000] px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[60px] py-8 sm:py-10 md:py-12 lg:py-16 xl:py-[60px]'>
           {/* Section Container */}

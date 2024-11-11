@@ -47,7 +47,7 @@ function App() {
           <Route path='services' element={<Services />} />
           <Route path='pactpro' element={<Pactpro />} />
           <Route path='ofizzpro' element={<Ofizzpro />} />
-          <Route path='why' element={<Content_04 />} />
+          <Route path='why-choose-us' element={<Content_04 />} />
         </Route>
         <Route path='home-4' element={<Home_04 />} />
       </Routes>

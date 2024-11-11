@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^www.orbyte.ai [NC]
+RewriteRule (.*) https://orbyte.ai/$1 [L,R=301]

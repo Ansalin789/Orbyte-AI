@@ -80,7 +80,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
             <Link to='/about' className='nav-link-item'>About Us</Link>
           </li>
           <li onClick={(e) => handleSubMenu(e, 2)} className='nav-item nav-item-has-children'>
-            <Link to='/why' className='nav-link-item drop-trigger'>Why Choose Orbyte AI?</Link>
+            <Link to='/why-choose-us' className='nav-link-item drop-trigger'>Why Choose Orbyte AI?</Link>
           </li>
           <li onClick={(e) => handleSubMenu(e, 3)} className='nav-item nav-item-has-children'>
             <Link to='#' className='nav-link-item drop-trigger'>

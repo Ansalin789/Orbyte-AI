@@ -25,8 +25,22 @@ const Content_04 = () => {
     <section id='content-section-4' className='p-6 mb-20 md:p-20 md:mb-40'>
     <Helmet>
     <meta charSet="utf-8" />
-    <title>Why Choose Orbyte AI</title>
-    <link rel="canonical" href="http://mysite.com/example" />
+    <title>Why Choose OrbyteAI - Best Business management solutions
+    </title>
+    <meta
+      name="description"
+      content="Discover why Orbyte AI is the best choice for your business management system. We offer top-notch business software solutions, expert support, and a commitment to your success."
+    />
+    <meta
+      name="keywords"
+      content="AI innovation for business, OrbyteAI solutions, PactPro contract management, OfizzPro office administration, AI-driven business products, Contract lifecycle management, Efficient office administration, Advanced AI for business operations, Business automation solutions, AI-powered business tools, State-of-the-art AI products, Contract management AI software, Office management with AI, Business productivity with AI, OrbyteAI PactPro and OfizzPro
+"
+    />
+    <link rel="canonical" href="https://orbyte.ai/why-choose-us/" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
     </Helmet>
       <div className='pb-10 pt-10 md:pb-20 md:pt-20 xl:pb-[150px] bg-gradient-to-b from-[#000] via-[#301979] to-[#cfc1f1] rounded-[20px] md:rounded-[40px]'>
         <div className='global-container'>

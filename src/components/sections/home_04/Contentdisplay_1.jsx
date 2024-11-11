@@ -38,9 +38,9 @@ const ContentDisplay_1 = () => {
         <div className="flex flex-col md:flex-row rounded-[20px] md:rounded-[30px] bg-[#74097E]">
           <div className={`flex flex-col w-full md:w-1/2 p-4 align-middle text-center content-transition ${transitioning ? 'fade-in' : 'fade-out'} text-white rounded`}>
             <div>
-              <h4 className='p-2 md:p-4 font-body text-[24px] md:text-[50px] mt-0 text-start'>
+              <h3 className='p-2 md:p-4 font-body text-[24px] md:text-[50px] mt-0 text-start'>
                 {content[currentContentIndex].heading}
-              </h4>
+              </h3>
               <p className='p-2 md:p-4 text-[14px] md:text-[15px] text-start font-body'>
                 {content[currentContentIndex].paragraph}
               </p>

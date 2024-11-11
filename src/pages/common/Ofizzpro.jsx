@@ -14,8 +14,22 @@ const Ofizzpro = () => {
     <>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>Ofizz Pro</title>
-      <link rel="canonical" href="http://mysite.com/example" />
+      <title>Human Resource Management Software, Enhance HR and Operational Efficiency with OfizzPro
+    </title>
+    <meta
+      name="description"
+      content="Orbyte AI's HR software makes managing employees easy. Track time, manage leave, and boost performance—all in one simple tool. Perfect for any business. Save time and improve efficiency with our user-friendly HR solution
+"
+    />
+    <meta
+      name="keywords"
+      content="HR Efficiency, Operational Efficiency, OfizzPro HR Solutions, HR Management Tools, Employee Productivity Tools, streamlined HR operations, HR Automation, Business Process Optimization, administrative tasks automation, HR process management, HR policies management, workplace organization, AI for HR office management tools"
+    />
+    <link rel="canonical" href="https://www.orbyte.ai/ofizzpro" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
     </Helmet>
       <main className='main-wrapper relative overflow-hidden bg-[#000000]'>
         <Content_01a />

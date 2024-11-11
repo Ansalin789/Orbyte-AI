@@ -17,9 +17,9 @@ const Content_01 = () => {
         <div className="pb-10 pt-20 md:pb-[10px] md:pt-40 lg:pt-44 xl:pt-[110px] rounded-3xl p-5 md:p-10">
           {/* Section Container */}
           <div className='bg-gradient-to-t from-[#e0bedf] via-[#790983] to-[#000000] p-10 md:p-20 rounded-b-[30px] md:rounded-b-[70px]'>
-            <h2 className='jos font-body mb-6 text-[24px] md:text-[50px] leading-none text-white -top-10'>
+            <h1 className='jos font-body mb-6 text-[24px] md:text-[50px] leading-none text-white -top-10'>
             Transform Your Contract Management with PactPro
-            </h2>
+            </h1>
             <div className='mx-auto max-w-[90%] md:max-w-[1090px]'>
               <p className='leading-[1.5] md:leading-[1.33] font-body text-[12px] md:text-[15px]'>
               Revolutionize your contract management with AI-driven solutions designed for modern businesses. Our advanced technology provides sophisticated risk assessment through expert algorithms, comprehensive key analysis for informed decision-making, and intuitive Q&A support with chain-of-thought agents, ensuring a seamless and efficient contract lifecycle management experience.

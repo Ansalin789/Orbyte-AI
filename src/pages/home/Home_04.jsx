@@ -4,12 +4,10 @@ import Faq from '../../components/sections/home_04/Faq';
 import Pacs from '../../components/sections/home_04/Pacs';
 import Contact from '../../pages/common/Contact';
 import Container from '../../components/sections/home_04/Container';
-import Footer_01 from '../../components/footer/Footer_01';
 import { Helmet } from 'react-helmet';
 
 const Home_04 = () => {
   return (
-    <>
       <div className='page-wrapper relative z-[1] bg-gradient-to-t from-[#030105] via-[#000] to-[#030105] text-white'>
         {/* <Header
           loginCSS='hidden border-b-2 border-transparent font-bold text-white transition-all duration-300 hover:text-colorViolet lg:inline-block'
@@ -20,7 +18,9 @@ const Home_04 = () => {
 
         <Helmet>
             <meta charSet="utf-8" />
-            <title>Orbyte AI</title>
+            <title>AI-powered Contract Lifecycle Management System - Orbyte AI
+            </title>
+            <meta name="description" content="Orbyte AI's contract management system helps you manage agreements, quickly and securely. Our system is perfect for your legal team, it's simple and effective. Experience the power of AI to streamline your business workflow. Start transforming your contract processes now."/>
             <link rel="canonical" href="http://mysite.com/example" />
         </Helmet>
         <main className='main-wrapper relative overflow-hidden'>
@@ -38,7 +38,6 @@ const Home_04 = () => {
         {/* <Footer_01 /> */}
         
       </div>
-    </>
   );
 };
 

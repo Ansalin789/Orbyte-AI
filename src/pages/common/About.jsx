@@ -8,8 +8,19 @@ const About = () => {
     <>
       <Helmet>
           <meta charSet="utf-8" />
-          <title>About Us</title>
-          <link rel="canonical" href="http://mysite.com/example" />
+          <title>About Orbyte AI - AI-Driven Business Solutions
+          </title>
+    <meta
+      name="description"
+      content="Learn about Orbyte AI, a leader in AI-powered software. Meet our team and discover how we help businesses grow with smart, easy-to-use technology. Find out what makes Orbyte AI special."
+    />
+    <meta
+      name="keywords"
+      content="AI innovation for business, OrbyteAI solutions, PactPro contract management, OfizzPro office administration, AI-driven business products, Contract lifecycle management, Efficient office administration, Advanced AI for business operations, Business automation solutions, AI-powered business tools, State-of-the-art AI products, Contract management AI software, Office management with AI, Business productivity with AI, OrbyteAI PactPro and OfizzPro
+"
+    />
+    <link rel="canonical" href="https://orbyte.ai/about" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       </Helmet>
       <main className='main-wrapper relative overflow-hidden bg-[#000]'>
         <div className='px-4 sm:px-6 md:px-8 lg:px-12'>
