@@ -31,7 +31,7 @@ const About = () => {
           <Service />
         </div>
         
-        <div className='px-4 sm:px-6 md:px-8 lg:px-12'>
+        <div className='px-4 sm:px-6 md:px-8 lg:px-12 p-8 md:p-20 justify-center items-center md:-mt-6 mb-40 md:mb-40'>
 {/*           <Team /> */}
         </div>
       </main>
