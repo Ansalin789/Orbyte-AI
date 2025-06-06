@@ -1,5 +1,5 @@
 import CoreValue from '../../components/sections/inner-pages/about/CoreValue';
-import Team from '../../components/sections/inner-pages/about/team/Team';
+// import Team from '../../components/sections/inner-pages/about/team/Team';
 import Service from '../../components/sections/home_04/Service';
 import { Helmet } from 'react-helmet';
 
@@ -31,9 +31,9 @@ const About = () => {
           <Service />
         </div>
         
-{/*         <div className='px-4 sm:px-6 md:px-8 lg:px-12'>
-          <Team />
-        </div> */}
+        <div className='px-4 sm:px-6 md:px-8 lg:px-12'>
+{/*           <Team /> */}
+        </div>
       </main>
     </>
   );
